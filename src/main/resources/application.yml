@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: dubbo-consumer-demo
+# Dubbo Config properties
+## ApplicationConfig Bean
+dubbo:
+  application:
+    id: dubbo-consumer-demo
+    name: dubbo-consumer-demo
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: 12345
+
+  registry:
+    address: zookeeper://192.168.25.128:2181
+    
+server:
+  port: 9092
